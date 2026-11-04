@@ -1,0 +1,26 @@
+{
+  "name": "pi-tool-preferences",
+  "version": "1.0.0",
+  "description": "Pi skill: prefer rg (ripgrep) to search file contents and fd to find files by name, falling back to grep/find when unavailable. Cross-platform tool-selection guidance.",
+  "keywords": [
+    "pi-package",
+    "pi-skill",
+    "ripgrep",
+    "fd",
+    "grep",
+    "find",
+    "tooling",
+    "shell"
+  ],
+  "license": "MIT",
+  "author": "Pingdong Yi <pingdongyi@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pingdongyi/pi-tool-preferences.git"
+  },
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}
